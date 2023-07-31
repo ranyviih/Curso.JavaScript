@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style> /*Estilo*/
+        body {
+            background-color: brown; /*Cor do site*/
+            color: white; /*cor da letra*/
+            font: normal 20pt Arial; /*fonte da letra*/
+        }
+        h1 {
+            color: black;
+        }
+    </style>
+</head>
+<body><!--Corpo-->
+    <h1>Ola, mundo!</h1> <!--Titulo-->
+    <p>Me livrei da maldicao</p> <!--paragrafo-->
+    <script> //Estrutura
+       var n1 = parseFloat(window.prompt("Digite um número: ")) //conversao de string para numero
+       var n2 = parseFloat(window.prompt("Digite outro número: "))
+       var soma =  n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) // + pode servir para concatenacao
+    </script> 
+</body>
+</html>
